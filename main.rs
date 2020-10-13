@@ -24,7 +24,7 @@ impl<'a> Table<'a> {
          for rows in &self.table {
              for field in rows {
                 let to_push  = format!("| {} {} " ,field , " ".repeat((self.width - field.len()))  )  ;
-                 to_print.push_str(&to_push) ;
+                to_print.push_str(&to_push) ;
 
 
 
