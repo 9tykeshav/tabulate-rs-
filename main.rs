@@ -29,7 +29,7 @@ impl<'a> Table<'a> {
         println!("{} ", to_print)
     }
 }
-
+//----------------------TEST------------------------------------------------
 fn main() {
     println!("Hello, world!");
     let mut t: Table = Table {
@@ -41,5 +41,4 @@ fn main() {
     t.render();
 }
 
-// Hint: The declaration on line 5 is missing a keyword that is needed in Rust
-// to create a new variable binding.
+
